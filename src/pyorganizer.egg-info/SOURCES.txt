@@ -1,0 +1,7 @@
+setup.py
+src/pyorganizer.egg-info/PKG-INFO
+src/pyorganizer.egg-info/SOURCES.txt
+src/pyorganizer.egg-info/dependency_links.txt
+src/pyorganizer.egg-info/entry_points.txt
+src/pyorganizer.egg-info/requires.txt
+src/pyorganizer.egg-info/top_level.txt
