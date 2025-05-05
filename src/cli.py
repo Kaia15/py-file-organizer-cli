@@ -34,7 +34,9 @@ def main():
     table.add_column("Size (MB)", justify="right")
     table.add_column("% Usage", justify="left")
     table.add_column("Hash", style="yellow")
-    table.add_column("Last Accessed", style="dim", justify="right")
+    table.add_column("Last Modified", style="dim", justify="right")
+    table.add_column("Suggest", justify="center")
+
 
     for f in result:
         size_mb = f["size"] / (1024 * 1024)
@@ -50,6 +52,7 @@ def main():
             usage_bar,
             file_hash_display,
             f["last_accessed"],
+            "🗑️" if f.get("suggest_delete") else ""
         )
 
     console.print(table)
