@@ -1,7 +1,6 @@
 ﻿# Python File Organizer CLI
 ### Progress
-![image](https://github.com/user-attachments/assets/a7174620-aaf5-455f-b15d-73941d759878)
-
+![image](https://github.com/user-attachments/assets/50142150-c095-440f-a2ca-7bf4828353d6)
 
 ## Setup
 - git clone `https://github.com/Kaia15/py-file-organizer-cli.git`
